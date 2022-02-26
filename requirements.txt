@@ -1,0 +1,10 @@
+black
+fastapi
+pytest
+pylint
+uvicorn[standard]
+spotipy
+asyncio
+black
+requests
+pytest-cov
