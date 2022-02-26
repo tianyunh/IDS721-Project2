@@ -10,8 +10,9 @@ This is a containerized fastAPI microservice that can search for an artist on Sp
 2. Type `\getRelatedArtists\` followed by the artist name you want to search after the address above
 3. It will return all the artists similar to the input artist if the input name is valid and can be found on Spotify
 
-## Techniques Used
-- FastAPI
+## Project Implementation & Workflow
+- Create a microservice based on FastAPI
 - Create a Dockerfile
 - Push Docker Image to Amazon ECR
-- Deploy through Amazon ECS
+- Deploy through Amazon ECS routed on load balancer
+- Built-in CI/CD workflow
